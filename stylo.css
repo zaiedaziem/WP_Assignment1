@@ -92,10 +92,10 @@ span{
     display:flex;
     align-items: center;
     gap: 7em;
-    padding-top: 30px;
-    padding-left:12%;
-    padding-right:16%;
-    padding-bottom:0;
+    padding-top: 110px;
+    padding-left:15%;
+    padding-right:20%;
+    padding-bottom:20px;
 }
 
 .home-content{
@@ -161,26 +161,29 @@ span{
 .img-box img{
     border-radius: 50%;
     width: 450px;
-    box-shadow :0 0 25px #6495ED,
-                0 0 50px #6495ED;
+    box-shadow :0 0 25px orangered,
+                0 0 50px orangered;
 
 }
 
 .about{
-    display: flex;
-    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+    background-color: black;
+    display:flex;
     align-items: center;
-    padding: 12% 8%;
-    gap: 10em;
-    background: black;
-    width: 100%;
+    gap: 7em;
+    padding-top: 30px;
+    padding-left:12%;
+    padding-right:16%;
+    padding-bottom:0;
 }
 
 .about-img img{
     position:static;
     width: 450px;
-    box-shadow :0 0 25px orangered,
-                0 0 50px orangered;
+    box-shadow :0 0 25px skyblue,
+                0 0 50px skyblue;
     border-radius: 50%;
 }
 
@@ -193,6 +196,10 @@ span{
 .about-content h3{
     color: white;
     font-size: 62px;
+}
+
+.about-content h3 b {
+    color: white;
 }
 
 .about-content p {
@@ -209,21 +216,29 @@ span{
     transition: background-color 0.3s ease; 
 }
 
+.link {
+    color: white; /* Change color as desired */
+    text-decoration: underline; /* Add underline to the link */
+    font-weight: bold; /* Make the link bold */
+}
+
+.link:hover {
+    color: skyblue /* Change color on hover */
+}
+
 
 .about-content p:hover {
     background-color: #444; 
 }
 
-
 .left-menu {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 50%; /* Position the menu from the middle */
     left: 0;
-    width: 150px;
-    height: 100%;
-    background-color: #FF6347; 
-    padding: 120px 10px 80px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transform: translateY(-50%); /* Adjust to center the menu vertically */
+    width: 200px;
+    background-color: orangered;
+    padding: 20px;
 }
 
 .left-menu .navbar a {
@@ -240,16 +255,14 @@ span{
 }
 
 .right-menu {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 50%; /* Position the menu from the middle */
     right: 0;
-    width: 150px;
-    height: 100%;
-    background-color: #6495ED; 
-    padding: 120px 10px 80px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-50%); /* Adjust to center the menu vertically */
+    width: 200px;
+    background-color: #87CEEB; 
+    padding: 20px;
 }
-
 
 .right-menu ul li {
     margin-bottom: 10px; 
@@ -297,21 +310,9 @@ span{
 }
 
 
-
 .footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
-
-/* Media query for responsiveness */
-@media only screen and (max-width: 768px) {
-    .left-menu,
-    .right-menu {
-        width: 100%; 
-        height: auto; 
-        padding: 20px; 
-    }
-}   
