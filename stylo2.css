@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+    .header h1{
+        color: white;
+        font-family: 'Poppins';
+        font-size: 64px;
+    }
+
+    .about{
+        width:300%;
+        min-height: 100vh;
+        background-color: black;
+        display:flex;
+        align-items: center;
+        gap: 7em;
+        padding-top: 30px;
+        padding-left:12%;
+        padding-right:16%;
+        padding-bottom:0;
+    }
+
+    .header h1 {
+        font-size: 42px; /* Reduce font size for smaller screens */
+    }
+
+    .home {
+        padding: 170px 50% 0; /* Adjust padding for smaller screens */
+        padding-bottom: 20px;
+    }
+
+    .left-menu {
+        top: 50%; /* Adjust position from the top */
+        left: 0;
+        transform: translate(-10%, -50%); /* Adjust to center the menu vertically and horizontally */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .right-menu {
+        top: 40%; /* Adjust position from the top */
+        right: 0;
+        transform: translate(400%, -50%); /* Adjust to center the menu vertically and horizontally */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .footer {
+        width: 300%; /* Set width to 100% for smaller screens */
+    }
+
+}
