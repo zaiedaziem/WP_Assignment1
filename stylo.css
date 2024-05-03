@@ -34,6 +34,7 @@
     transform: scale(1.1);
 }
 
+/*zaiedaziem logo*/
 .logo{
     font-size: 25px;
     color: white;
@@ -48,10 +49,12 @@
     transform: scale(1.1);
 }
 
+/*span tag style*/
 span{
     color: orangered;
 }
 
+/*dlm left menu*/
 .navbar a{
     font-size: 18px;
     color: white;
@@ -67,6 +70,7 @@ span{
     border-bottom: 3px solid orangered;
 }
 
+/*contact me button*/
 .contact{
     padding: 10px 28px;
     background-color: white;
@@ -85,6 +89,7 @@ span{
     color: white;
 }
 
+/*home section*/
 .home{
     width:100%;
     min-height: 100vh;
@@ -123,6 +128,7 @@ span{
     gap: 2em;
 }
 
+/*button 1*/
 .btn-1{
     padding: 15px 28px;
     background-color: black;
@@ -140,6 +146,7 @@ span{
     border: 2px solid black;
 }
 
+/*button 2*/
 .btn-2 {
     padding: 15px 28px;
     background-color: orangered;
@@ -157,6 +164,7 @@ span{
     color: orangered;
 }
 
+/*image */
 .img-box img{
     border-radius: 50%;
     width: 450px;
@@ -165,6 +173,7 @@ span{
 
 }
 
+/*about section*/
 .about{
     width:100%;
     min-height: 100vh;
@@ -218,6 +227,7 @@ span{
     transition: background-color 0.3s ease; 
 }
 
+/*link email dkat about*/
 .link {
     color: white; /* Change color as desired */
     text-decoration: underline; /* Add underline to the link */
@@ -232,6 +242,7 @@ span{
     background-color: #444; 
 }
 
+/*skills or experience section*/
 .skills {
     width: 100%;
     min-height: 100vh;
@@ -246,12 +257,12 @@ span{
 }
 
 .skills-heading {
-    width: 50%; /* Adjust width as needed */
+    width: 50%; 
 }
 
 .skills-content .skills-heading h1 {
-    font-size: 45px; /* Adjust font size as needed */
-    color: black; /* Adjust color as needed */
+    font-size: 45px; 
+    color: black; 
 }
 
 .skills-content h1{
@@ -259,7 +270,7 @@ span{
     line-height: 1.2;
 }
 .skills-content {
-    width: 45%; /* Adjusted width */
+    width: 45%; 
     padding: 20px;
     background-color: #fff; /* Added background color */
     border-radius: 10px; /* Added border radius */
@@ -278,19 +289,20 @@ span{
 }
 
 .skills-content h2 {
-    font-size: 24px; /* Increased font size */
-    color: #333; /* Changed color */
+    font-size: 24px; 
+    color: #333; 
     margin-bottom: 10px;
     font-style: italic;
 }
 
 .skills-content p {
     font-size: 16px;
-    color: #555; /* Changed color */
+    color: #555; 
     margin-bottom: 20px;
     font-weight: bold;
 }
 
+/*programming skills section*/
 .language {
     display: flex;
     align-items: center;
@@ -340,6 +352,7 @@ span{
     transition: width 0.5s ease; /* Added transition */
 }
 
+/*lect menu section*/
 .left-menu {
     position: absolute;
     top: 32%; /* Position the menu from the middle */
@@ -364,6 +377,7 @@ span{
     background-color: #FFA07A; 
 }
 
+/*right menu section*/
 .right-menu {
     position: absolute;
     top: 20%; /* Position the menu from the middle */
@@ -420,6 +434,7 @@ span{
     display: block;
 }
 
+/*footer*/
 .footer {
     background-color: #333;
     color: #fff;
